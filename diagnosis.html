@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diagnosis - AI Diagnostic System</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>AI Diagnostic System</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="diagnosis.html">Diagnosis</a></li>
+                <li><a href="research.html">Research</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="diagnosis-form">
+        <h2>Enter Symptoms</h2>
+        <form id="diagnosisForm">
+            <textarea id="symptoms" placeholder="Enter symptoms, separated by commas" required></textarea>
+            <button type="submit">Get Diagnosis</button>
+        </form>
+        <div id="diagnosisResult" class="result"></div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 AI Diagnostic System</p>
+    </footer>
+</body>
+</html>
